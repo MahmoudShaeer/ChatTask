@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:background="#f1e7d8"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:gravity="center">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@drawable/login"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#da1803"
+        android:textSize="50dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:drawableLeft="@drawable/person2_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint=" username..."
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+
+        android:drawableLeft="@drawable/key_password_name"
+        android:maxLines="1"
+        android:hint=" password..."
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:text="Login"
+        android:id="@+id/loginButton"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to register"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/register"/>
+
+
+
+</LinearLayout>

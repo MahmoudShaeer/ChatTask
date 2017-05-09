@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970970696823",
+    "firebase_url": "https://chatus-515d9.firebaseio.com",
+    "project_id": "chatus-515d9",
+    "storage_bucket": "chatus-515d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970970696823:android:4ac4a01ee49a26c0",
+        "android_client_info": {
+          "package_name": "com.example.mahmoudshaeer.chatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970970696823-vdik3nevcbd3rj0gs2i78n0dcti1h2mb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mahmoudshaeer.chatus",
+            "certificate_hash": "1fa77ca2377d4dbe35f968c94b4782095cc5b878"
+          }
+        },
+        {
+          "client_id": "970970696823-d1jcacbt1323ij8jfhas9r4ufqp6gnjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxpbDQnAYHhIhaUA7Yg8mjSe-MaNYYYqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970970696823-d1jcacbt1323ij8jfhas9r4ufqp6gnjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
